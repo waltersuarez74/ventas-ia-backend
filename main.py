@@ -5,10 +5,10 @@ import os
 app = FastAPI()
 
 DB_CONFIG = {
-    "host": os.getenv("DB_HOST"),
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME")
+    "host": os.getenv("ventas-ia-mysql.mysql.database.azure.com"),
+    "user": os.getenv("wsuarez"),
+    "password": os.getenv("Afsmnz78"),
+    "database": os.getenv("db_ventas")
 }
 
 @app.get("/")
